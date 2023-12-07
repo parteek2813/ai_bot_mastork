@@ -19,6 +19,7 @@ function Navbar() {
           <div className="text_wrapper">How it helps you</div>
           <div className="text_wrapper">Case Studies</div>
           <div className="text_wrapper">FAQs</div>
+
           {/* Auth Button */}
           <div className="auth_button">
             <button className="sign_in_button">Sign in</button>

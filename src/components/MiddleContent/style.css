@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@300&family=Raleway:wght@100&family=Space+Mono&display=swap");
+
+.middle_container {
+  width: 1334px;
+  height: 64px;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+
+.text_middle_1 {
+  color: var(--gray-900, #18181b);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px;
+}
+
+.text_middle_2 {
+  color: var(--gray-600, #52525b);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 1007px;
+  margin-left: 160px;
+  margin-top: 20px;
+}

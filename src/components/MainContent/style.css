@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,200&family=Plus+Jakarta+Sans:wght@300&family=Raleway:wght@100&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@300&family=Raleway:wght@100&family=Space+Mono&display=swap");
+
+.container_main {
+  width: 815px;
+}
+.upper_title {
+  color: var(--gray-600, #52525b);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 815px;
+  margin-top: 144px;
+  margin-left: 302px;
+}
+
+.bottom_title {
+  color: var(--gray-900, #18181b);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+}
+
+.custom_text {
+  color: #1964e1;
+  font-family: Plus Jakarta Sans;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text_1 {
+  margin-left: 209px;
+}
+
+.left_right {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-left: 519px;
+  margin-top: 20px;
+}
+
+.left_button {
+  display: flex;
+  width: 222px;
+  height: 56px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--base-black, #000);
+  color: white;
+}
+
+.right_button {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid var(--gray-400, #a1a1aa);
+}
+
+.image_container {
+  margin-top: 82px;
+  margin-left: 360px;
+}
+
+.upper_image {
+  width: 740px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 24px 164px -20px rgba(35, 40, 105, 0.15);
+}
+
+.lower_image {
+  width: 880px;
+  height: 494px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 10px 10px;
+  background: url(<path-to-image>),
+    lightgray -0.042px 0px / 100.01% 130.02% no-repeat;
+}
