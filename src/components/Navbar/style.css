@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@300&family=Raleway:wght@100&family=Space+Mono&display=swap");
+
+.logo {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 87px;
+  margin-left: 34px;
+  margin-top: 24px;
+}
+
+.AI-BOT {
+  color: transparent;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 3px;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.logo_first {
+  color: #2a2ae7;
+}
+
+.logo_second {
+  color: #18181b;
+}
+
+.navbar {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 45px;
+  left: 502px;
+  position: absolute;
+  top: 10px;
+  margin-top: 27px;
+}
+
+.text_wrapper {
+  color: var(--gray-900, #18181b);
+
+  /* PJ/Semi-bold/16px */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.auth_button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 126px;
+}
+
+.sign_in_button {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Get_started_button {
+  display: flex;
+  width: 165px;
+  height: 45px;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--gray-900, #18181b);
+  margin-left: 24px;
+}
+
+.inner_register {
+  color: var(--base-white, #fff);
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
